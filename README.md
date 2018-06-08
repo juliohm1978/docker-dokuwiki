@@ -16,4 +16,4 @@ For persistence, be sure to mount a volume into `/var/www/html/data` inside the 
 
 The built image is hosted on docker hub: https://hub.docker.com/r/juliohm/dokuwiki/
 
-Further updates should follow the [official DokuWiki releases](https://download.dokuwiki.org/archive).
+Further updates will probably follow the [official DokuWiki releases](https://download.dokuwiki.org/archive).
