@@ -1,0 +1,23 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Docker image",
+      "type": "shell",
+      "command": "docker build --squash -t juliohm/dokuwiki:2018-04-22a-greebo .",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Push Docker image",
+      "type": "shell",
+      "command": "docker push juliohm/dokuwiki:2018-04-22a-greebo",
+      "problemMatcher": []
+    }
+  ]
+}
